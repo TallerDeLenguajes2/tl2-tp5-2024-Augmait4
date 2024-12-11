@@ -3,7 +3,7 @@ public class PresupuestosDetalle
     private int cantidad;
     Productos producto;
 
-    PresupuestosDetalle(int cantidad, Productos producto)
+    public PresupuestosDetalle(int cantidad, Productos producto)
     {
         this.Cantidad = cantidad;
         this.Producto = producto;
